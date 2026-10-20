@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-ÇELİKKUBBE (STEEL DOME) - HAVA SAVUNMA & TARET KONTROL MERKEZİ
-TEKNOFEST Taktik Komuta & Kontrol Sistemi (V5 Taktik Web Dashboard)
-===================================================================
-Tek komutla modern, cam efektli (glassmorphism), siber-askeri HUD arayüzünü
-tarayıcıda donanım hızlandırmalı olarak sıfır gecikmeyle (60 FPS) açar.
-
-Kullanım:
-    python main.py                  (Otomatik webcam / simülatör + best.pt)
-    python main.py --source 0       (Dahili Webcam)
-    python main.py --source 1       (Harici USB Kamera)
-    python main.py --source synthetic (Sentetik Hedef Simülasyonu)
-"""
 
 import os
 import sys
