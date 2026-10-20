@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.lock
+.dashboard_backend.lock
+.vscode/
+.idea/
+screenshots/
+*.log

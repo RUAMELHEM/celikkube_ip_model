@@ -1,0 +1,20 @@
+# Çelikkubbe Dashboard — Python Bağımlılıkları
+# Kurulum: pip install -r requirements_ui.txt
+
+# ── Temel ──
+websockets>=12.0         # WebSocket sunucu
+opencv-python>=4.9.0     # Kamera ve görüntü işleme
+numpy>=1.24.0
+
+# ── AI Model ──
+ultralytics>=8.2.0       # YOLO11s-P2 inference (V5 modeli için)
+torch>=2.0.0             # PyTorch (ultralytics bağımlılığı)
+
+# ── Klavye Kısayolları ──
+keyboard>=0.13.5         # Global F9/F10 acil durdurma kısayolları (opsiyonel)
+
+# ── ROS2 (ayrıca kurulur, pip ile değil) ──
+# rclpy — ROS2 Humble/Iron Python kütüphanesi
+# std_msgs — Temel mesaj tipleri
+# sensor_msgs — Image tipi (kamera için)
+# cv_bridge — OpenCV ↔ ROS2 image köprüsü
