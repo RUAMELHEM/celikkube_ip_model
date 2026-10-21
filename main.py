@@ -7,7 +7,7 @@ import threading
 import webbrowser
 import argparse
 import asyncio
-from pathlib import Path
+from pathlib import Path 
 
 # Kök ve Arayüz dizinlerini Python yoluna ekle
 ROOT_DIR = Path(__file__).resolve().parent
